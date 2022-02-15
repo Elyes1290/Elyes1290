@@ -1,0 +1,143 @@
+body{
+        height: 942px;
+        width: 695px;
+        /* to centre page on screen*/
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.nom{
+    text-align: start;
+    margin-bottom: 1%;
+}
+
+h1{
+    text-align: center;
+}
+
+.email{
+    margin-top: 1%;
+}
+
+img{
+    width: 10%;
+    height: 10%;
+    margin-left: 2%;
+    float:right;
+    
+}
+
+
+.adresse{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.photo{
+    height: 100px;
+    width: 300px;
+    float: left;
+        
+}
+
+.datedenaissance{
+    margin-bottom: 1%;
+}
+
+.nationalité{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.etat_civil{
+    margin-top: 1%;
+}
+
+.origine{
+
+    float: right;
+  }
+
+
+
+.descriptions{
+    text-align: center;
+}
+
+.intro{
+    
+    background: linear-gradient(rgb(208, 208, 255),white)
+}
+
+.date{
+    
+    text-align: center;
+    height: 85px;
+    width: 20%;
+    float: left;
+    background-color: beige;
+    clear: both;
+
+
+}
+
+.titrefor{
+    text-align: center;
+    background:radial-gradient(gray, white)
+    
+}
+
+.ecole{
+    background-color: beige;
+    text-align: left;
+    height: 2.25cm;
+    width: 75%;
+    float: right;
+}
+
+.Exp-pro, .outils_info, .langue, .loisir{
+    clear:both
+
+}
+
+.exp{
+    text-align: center;
+    background:radial-gradient(gray, white)
+
+}
+
+.dates{
+    float: left;
+}
+
+.assistant{
+    background-color: beige;
+    text-align: left;
+    height: 230px;
+    width: 75%;
+    float: right;
+
+}
+
+.date-ass{
+    text-align: center;
+    height: 230px;
+    width: 20%;
+    float: left;
+    background-color: beige;
+    clear: both;
+
+}
+
+.info{
+    list-style-type:circle;
+    font-size: large;
+}
+
+.langueright{
+    float: right;
+}
+
+.langueleft{
+    float: left;
+}
