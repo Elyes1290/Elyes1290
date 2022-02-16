@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ballet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
+body{
+    background-color: rgba(199, 205, 255, 0.651);
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+        
+}
+
+li {
+    float: right;
+    
+}
+
+li a {
+    display: block;
+    color: rgb(54, 54, 54);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:overline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+.accueil_pic{
+    width: auto;
+    height: auto;
+}
+
+.intro{
+
+    width: 100%;
+    height: 500px;
+    }
+
+
+.img_acc{
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 500px;
+    filter: opacity(0.4);
+}
+
+.img_acc:hover{
+    filter: opacity(1);
+}
+
+.titre_acc{
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    font-style: oblique;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif
+      
+}
+.moi{
+    background-color: azure;
+}
+.nom_acc{
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Faster One';
+    font-size: 2cm;
+    text-shadow:0.1em 0.1em 0.05em #333;
+    
+    
+}
+
+.moi{
+    text-align: center;
+    height: 300px;
+    
+}
+
+.about{
+    text-align: center;
+    margin: 0cm;
+    
+}
+
+.Pabout{
+    margin-top: 0cm;
+}
+
+.curiv{
+    text-align: center;
+}
+
+.text_pres{
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.pk_moi{
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    transform: rotate(180deg);
+    float: left
+    
+}
+
+.moi_desc, .moi_histoire, .moi_parcours{
+    background-color: azure;
+    margin-left: 2cm;
+    width: 400px;
+    height: 780px;
+    text-align: justify;  
+    padding: 25px; 
+}
+
+
+.pres_moi{
+    padding: 25px;
+    margin: auto;
+    
+}
+
+.moi_histoire{
+    background-color: azure;
+    margin-top: -834px;
+
+    float: right;
+
+}
+
+
+.marche_seul{
+    width: 400px;
+    height: 150px;
+}
+
+.lien_cv{
+    color: black;
+    display: block;
+    margin-left: 1.5cm;
+    text-align: center;
+    width: 70%;
+    height: 50px;
+    border-style: solid;
+    font-size: 1.2cm;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    
+}
+
+.moi_parcours{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -834px;
+}
+
+.lien_cv:hover{
+    background-color: rgb(3, 53, 146);
+}
+
